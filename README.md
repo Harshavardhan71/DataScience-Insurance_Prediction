@@ -87,22 +87,11 @@ The project trains and evaluates multiple models to classify whether a customer 
 - Visualizes data distributions, relationships, and model evaluations.  
 - Provides insights into which features are most influential in customer decision-making.  
 
-### **Potential Future Enhancements**
-- Implement additional ensemble models (e.g., Stacking, Voting classifiers).
-- Try deep learning models with more complex architectures.
-- Use **SMOTE (Synthetic Minority Over-sampling Technique)** to handle class imbalance.
-- Deploy the best model as a **web API** for real-time predictions.
-
 ## Libraries Used
 - **Data Manipulation**: Pandas, NumPy
 - **Visualization**: Matplotlib, Seaborn, Plotly
 - **Machine Learning**: Scikit-learn, XGBoost, LightGBM, Optuna, PyOD
 - **Deep Learning**: TensorFlow, Keras
-
-## Usage
-1. **Load Data**: Ensure `train.csv` and `test.csv` are in the correct directory.
-2. **Run the Script**: Execute the script to preprocess data, train models, and generate predictions.
-3. **Evaluate Models**: Review accuracy and visualization outputs.
 
 ## Results
 - The best-performing models were optimized using hyperparameter tuning.
